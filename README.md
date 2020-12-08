@@ -40,27 +40,27 @@ Creating and Analyzing Visualizations based on Income data
 ## Conclusion
 * Following factors have been identified to play important role in predicting individual's income:
   * **Age**:
-    - From the [visualization](https://github.com/setu-parekh/income-prediction-factors-indentification/graphs/age_distribution.png), it can be be observed that there are greater chances of people in the age between 40 - 50 years earning more than 50K income.
+    - From the [visualization](https://github.com/setu-parekh/income-prediction-factors-indentification/blob/main/graphs/age_distribution.png), it can be be observed that there are greater chances of people in the age between 40 - 50 years earning more than 50K income.
     - Those in the age group of 15-20, 70-90 years have very little chance of earning greater than 50K.
   * **Education**:
-    - From the [visualization](https://github.com/setu-parekh/income-prediction-factors-indentification/graphs/education_distribution.png), it can be observed that most of the people in this dataset have only high school as their highest level of education. Only small portion are having doctoral degrees.
+    - From the [visualization](https://github.com/setu-parekh/income-prediction-factors-indentification/blob/main/graphs/education_distribution.png), it can be observed that most of the people in this dataset have only high school as their highest level of education. Only small portion are having doctoral degrees.
     - Low income category mostly comprises of those people with their highest education as High School graduate, Bachelors and college graduate and others who are not even high school graduate.
     - Only those with masters and doctoral degree are earning greater than 50K income.
   * **Marital Status**:
-    - From the [visualization](https://github.com/setu-parekh/income-prediction-factors-indentification/graphs/marital_status_distribution.png), it can be observed that all categories except Married-civ-spouse are clearly weighted towards  less than 50K income.
+    - From the [visualization](https://github.com/setu-parekh/income-prediction-factors-indentification/blob/main/graphs/marital_status_distribution.png), it can be observed that all categories except Married-civ-spouse are clearly weighted towards  less than 50K income.
     - The income distribution in Married-civ-spouse category is almost equally distributed.
   * **Occupation**:
-    - From the [visualization](https://github.com/setu-parekh/income-prediction-factors-indentification/graphs/occupation_distribution.png), it can be observed that people with executive-managerial and Prof-speciality roles are earning more than 50K income due to their higher rank of occupation.
+    - From the [visualization](https://github.com/setu-parekh/income-prediction-factors-indentification/blob/main/graphs/occupation_distribution.png), it can be observed that people with executive-managerial and Prof-speciality roles are earning more than 50K income due to their higher rank of occupation.
     - Remaining all occupation groups are most likely to have income lower than 50K.
   * **Relationship**:
-    - From the [visualization](https://github.com/setu-parekh/income-prediction-factors-indentification/graphs/relationship_distribution.png), it can be observed that all categories except husband and wife are earning less than 50K.
+    - From the [visualization](https://github.com/setu-parekh/income-prediction-factors-indentification/blob/main/graphs/relationship_distribution.png), it can be observed that all categories except husband and wife are earning less than 50K.
     - However, probability of husband and wife falling in either class is almost similar.
   * **Capital Gain**:
-    - From the [visualization](https://github.com/setu-parekh/income-prediction-factors-indentification/graphs/capital_gain_distribution.png), it can be observed that majority of the data lies near 0 capital gain.
+    - From the [visualization](https://github.com/setu-parekh/income-prediction-factors-indentification/blob/main/graphs/capital_gain_distribution.png), it can be observed that majority of the data lies near 0 capital gain.
     - Capital gain is widely distributed for people earning greater than 50K as compared to those earning less than 50K.
     - So, if a person is having higher capital gain, it is more likely that they will fall under greater than 50K category.
   * **Hours per Week**:
-    - From the [visualization](https://github.com/setu-parekh/income-prediction-factors-indentification/graphs/hours_per_week_distribution.png), it can be observed that average working hours for the entire dataset is 40 hrs.
+    - From the [visualization](https://github.com/setu-parekh/income-prediction-factors-indentification/blob/main/graphs/hours_per_week_distribution.png), it can be observed that average working hours for the entire dataset is 40 hrs.
     - Those working fewer than 40 hrs are earning less than 50K.
     - There are greater chances of people working more than 40 hrs earning higher than 50K.
 
