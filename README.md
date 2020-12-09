@@ -7,6 +7,8 @@ Creating and Analyzing Visualizations based on Income data
 * [Data Used](#data-used)
 * [Approach & Methodology](#approach--methodology)
 * [Run Locally](#run-locally)
+* [Data Visualization](#data-visualization)
+* [Classifier Performance Evaluation](#classifier-performance-evaluation)
 * [Conclusion](#conclusion)
 
 ## Introduction & General Information
@@ -16,6 +18,7 @@ Creating and Analyzing Visualizations based on Income data
 
 ## Objectives
 - Creating useful visualization based on the census income data and analyzing these visualizations to identify the most important factors contributing to an individual’s income.
+- Implementing various machine learning algorithms based on the identified factors to predict an individual's income by splitting the given dataset into train and test set.
 
 ## Data Used
 (Data Source: https://archive.ics.uci.edu/ml/machine-learning-databases/adult/)
@@ -25,9 +28,11 @@ Creating and Analyzing Visualizations based on Income data
 
 ## Approach & Methodology
 - Convert the given dataset into pandas dataframe and then clean the dataframe to remove the missing values.
+- Encode the class label and few categorical attributes to numbers as machine learning classification models only accept numerical values.
 - Create and Analyze Bivariate Visualizations of each of the 14 attributes against the class label, Salary using various visualization techniques.
 - Identify useful attributes for income prediction.
-- Create and Analyze Multivariate Visualizations of the useful attributes identified above.
+- Predict individual's income using classification models such as K-Nearest Neighbours, Logistic Regression, Decision Tree, Naive Bayes, Random Forest and Neural Networks based on the attributes identified above.
+- Compare the performance of these classification models.
 
 ## Run Locally
 * Make sure Python 3 is installed. Reference to install: [Download and Install Python 3](https://www.python.org/downloads/)
@@ -37,7 +42,7 @@ Creating and Analyzing Visualizations based on Income data
 * Run Jupyter Notebook: `jupyter notebook`
 * Select the notebook to open: `factors_identification_by_visualization.ipynb`
 
-## Conclusion
+## Data Visualization
 * Following factors have been identified to play important role in predicting individual's income:
   * **Age**:
     - From the [visualization](https://github.com/setu-parekh/income-prediction-factors-indentification/blob/main/graphs/age_distribution.png), it can be be observed that there are greater chances of people in the age between 40 - 50 years earning more than 50K income.
@@ -66,7 +71,19 @@ Creating and Analyzing Visualizations based on Income data
 
 * Hence, people with lower income can easily be identified from above factors and targeted for marketing of degree courses.
 
+## Classifier Performance Evaluation
+* Following machine learning models were created to predict an individual's income:
+  * K-Nearest Neighbour (Accuracy: 82%)
+  * Logistic Regression (Accuracy: 78%)
+  * Decision Tree (Accuracy: 80%)
+  * Naive Bayes (Accuracy: 78%)
+  * Random Forest (Accuracy: 83%)
+  * Neural Networks (Accuracy: 77%)
 
+## Conclusion
+* We identified Age, Education, Marital Status, Occupation, Relationship, Capital gain and Hours per week out of total 14 attributes as important factors for predicting income.
+* We developed various machine learning classification models to predict the income based on these factors. The accuracy of all the model lies between 77 - 83%.
+* Hence, based on these identified factors and classification models, we can target the people earning less than 50K to enroll into college for further education.
 
 
 
