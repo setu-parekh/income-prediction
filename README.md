@@ -36,11 +36,11 @@ Building classification models to predict income based on the identified factors
 
 ## Run Locally
 * Make sure Python 3 is installed. Reference to install: [Download and Install Python 3](https://www.python.org/downloads/)
-* Clone the project: `git clone https://github.com/setu-parekh/income-prediction-factors-indentification.git`
+* Clone the project: `git clone https://github.com/setu-parekh/income-prediction.git`
 * Route to the cloned project: `cd income-prediction-factors-indentification`
 * Install necessary packages: `pip install -r requirements.txt`
 * Run Jupyter Notebook: `jupyter notebook`
-* Select the notebook to open: `factors_identification_by_visualization.ipynb`
+* Select the notebook to open: `income_prediction_using_identified_factors.ipynb`
 
 ## Data Visualization
 * Following factors have been identified to play important role in predicting individual's income:
