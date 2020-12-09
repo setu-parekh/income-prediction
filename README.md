@@ -1,5 +1,5 @@
-# Identifying Important Factors Affecting an Individual's Income
-Creating and Analyzing Visualizations based on Income data
+# Income Prediction
+Building classification models to predict income based on the identified factors through visualization
 
 ## Summary
 * [Introduction & General Information](#introduction--general-information)
